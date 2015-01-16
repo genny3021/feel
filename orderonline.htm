@@ -1,0 +1,867 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7 lt-ie6 " lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8 ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9 ie8" lang="en"> <![endif]-->
+<!--[if gt IE 8]> <html lang="fr" class="no-js ie9" lang="en"> <![endif]-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+	<meta name="robots" content="NOFOLLOW, NOINDEX" />
+	<title>CMS - PrestaShop&trade;</title>
+	<script type="text/javascript">
+		var help_class_name = 'AdminCmsContent';
+		var iso_user = 'en';
+		var country_iso_code = 'NG';
+		var _PS_VERSION_ = '1.5.6.2';
+		var helpboxes = 1;
+		var roundMode = 2;
+		var youEditFieldFor = '';
+		var autorefresh_notifications = '';
+		var new_order_msg = 'A new order has been placed on your shop.';
+		var order_number_msg = 'Order number';
+		var total_msg = 'Total';
+		var from_msg = 'From';
+		var see_order_msg = 'View this order';
+		var new_customer_msg = 'A new customer registered on your shop.';
+		var customer_name_msg = 'Customer name';
+		var see_customer_msg = 'View this customer';
+		var new_msg = 'A new message posted on your shop.';
+		var excerpt_msg = 'Excerpt';
+		var see_msg = 'Read this message';
+		var token_admin_orders = 'dd83541310cd79ee2408b9f7a31d1fee';
+		var token_admin_customers = '427958071f4ecc732c8271b72c8d0687';
+		var token_admin_customer_threads = '409b361d34179a6cbd155dc8a253675e';
+		var currentIndex = 'index.php?controller=AdminCmsContent';
+		var choose_language_translate = 'Choose language';
+	</script>
+	<link href="/admin5274/../modules/gamification/views/css/gamification.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="/admin5274/../admin5274/../js/jquery/plugins/fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="/admin5274/../css/admin.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="/admin5274/../admin5274/themes/default/css/admin.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="/admin5274/../admin5274/../js/jquery/plugins/cluetip/jquery.cluetip.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="/admin5274/../admin5274/../js/jquery/plugins/alerts/jquery.alerts.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="/admin5274/../admin5274/../js/jquery/plugins/chosen/jquery.chosen.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="/admin5274/../admin5274/../js/jquery/plugins/tagify/jquery.tagify.css" rel="stylesheet" type="text/css" media="all" />
+	<script type="text/javascript" src="/admin5274/../admin5274/../js/jquery/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="/admin5274/../admin5274/../js/jquery/jquery-migrate-1.2.1.js"></script>
+	<script type="text/javascript" src="/admin5274/../modules/gamification/views/js/gamification.js"></script>
+	<script type="text/javascript" src="/admin5274/../admin5274/../js/jquery/plugins/fancybox/jquery.fancybox.js"></script>
+	<script type="text/javascript" src="/admin5274/../admin5274/../js/jquery/plugins/cluetip/jquery.cluetip.js"></script>
+	<script type="text/javascript" src="/admin5274/../admin5274/../js/jquery/plugins/jquery.hoverIntent.js"></script>
+	<script type="text/javascript" src="/admin5274/../admin5274/../js/jquery/plugins/jquery.scrollTo.js"></script>
+	<script type="text/javascript" src="/admin5274/../admin5274/../js/jquery/plugins/alerts/jquery.alerts.js"></script>
+	<script type="text/javascript" src="/admin5274/../admin5274/../js/jquery/plugins/chosen/jquery.chosen.js"></script>
+	<script type="text/javascript" src="/admin5274/../js/admin.js"></script>
+	<script type="text/javascript" src="/admin5274/../js/toggle.js"></script>
+	<script type="text/javascript" src="/admin5274/../js/tools.js"></script>
+	<script type="text/javascript" src="/admin5274/../js/ajax.js"></script>
+	<script type="text/javascript" src="/admin5274/../js/toolbar.js"></script>
+	<script type="text/javascript" src="/admin5274/../js/notifications.js"></script>
+	<script type="text/javascript" src="/admin5274/../js/helpAccess.js"></script>
+	<script type="text/javascript" src="/admin5274/../admin5274/../js/jquery/ui/jquery.ui.widget.min.js"></script>
+	<script type="text/javascript" src="/admin5274/../admin5274/../js/jquery/plugins/tagify/jquery.tagify.js"></script>
+	<script type="text/javascript" src="/admin5274/../js/form.js"></script>
+	<script type="text/javascript" src="/admin5274/../js/tiny_mce/tiny_mce.js"></script>
+	<script type="text/javascript" src="/admin5274/../js/tinymce.inc.js"></script>
+	<link rel="icon" type="image/vnd.microsoft.icon" href="/img/favicon.ico" />
+	<link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
+	<script>
+				var admin_gamification_ajax_url = 'index.php?controller=AdminGamification&token=8fbbe3c7aeb670bf8307e9c1244939cf';
+				var current_id_tab = 71;
+			</script>
+	<!--[if IE]>
+	<link type="text/css" rel="stylesheet" href="http://test.hairfinity.interranetworks.com/css/admin-ie.css" />
+	<![endif]-->
+	<style type="text/css">
+		div#header_infos, div#header_infos a#header_shopname, div#header_infos a#header_logout, div#header_infos a#header_foaccess {color:#383838}
+	</style>
+</head>
+<body style="">
+<div id="ajax_running"><img src="../img/admin/ajax-loader-yellow.gif" alt="" /> Loading...</div>
+<div id="top_container" >
+<div id="container">
+
+	<div id="header">
+		<div id="header_infos">
+			<a id="header_shopname" href="index.php?controller=AdminHome&amp;token=6eb05d6f79c02841638a949ff55dcc66"><span>Hairfinity</span></a>
+			<div id="notifs_icon_wrapper">
+					<div id="orders_notif" class="notifs">
+							<span id="orders_notif_number_wrapper" class="number_wrapper">
+								<span id="orders_notif_value">0</span>
+							</span>
+						<div id="orders_notif_wrapper" class="notifs_wrapper">
+							<h3>Last orders</h3>
+							<p class="no_notifs">No new orders has been placed on your shop</p>
+							<ul id="list_orders_notif"></ul>
+							<p><a href="index.php?controller=AdminOrders&amp;token=dd83541310cd79ee2408b9f7a31d1fee">Show all orders</a></p>
+						</div>
+					</div>
+					<div id="customers_notif" class="notifs notifs_alternate">
+							<span id="customers_notif_number_wrapper" class="number_wrapper">
+								<span id="customers_notif_value">0</span>
+							</span>
+						<div id="customers_notif_wrapper" class="notifs_wrapper">
+							<h3>Last customers</h3>
+							<p class="no_notifs">No new customers registered on your shop</p>
+							<ul id="list_customers_notif"></ul>
+							<p><a href="index.php?controller=AdminCustomers&amp;token=427958071f4ecc732c8271b72c8d0687">Show all customers</a></p>
+						</div>
+					</div>
+					<div id="customer_messages_notif" class="notifs">
+							<span id="customer_messages_notif_number_wrapper" class="number_wrapper">
+								<span id="customer_messages_notif_value">0</span>
+							</span>
+						<div id="customer_messages_notif_wrapper" class="notifs_wrapper">
+							<h3>Last messages</h3>
+							<p class="no_notifs">No new messages posted on your shop</p>
+							<ul id="list_customer_messages_notif"></ul>
+							<p><a href="index.php?tab=AdminCustomerThreads&amp;token=409b361d34179a6cbd155dc8a253675e">Show all messages</a></p>
+						</div>
+					</div>
+			</div>
+			<div id="employee_box">
+				<div id="employee_infos">
+					<div class="employee_name">Welcome, <strong>A&nbsp;Administrator</strong></div>
+					<div class="clear"></div>
+					<ul id="employee_links">
+						<li><a href="index.php?controller=AdminEmployees&amp;token=386023dbe951fa3aa6f087b60f420c1a&id_employee=1&amp;updateemployee">My preferences</a></li>
+						<li class="separator">&nbsp;</li>
+						<li><a id="header_logout" href="index.php?logout">logout</a></li>
+						<li class="separator">&nbsp;</li>
+						<a href="http://test.hairfinity.interranetworks.com/" id="header_foaccess" target="_blank" title="View my shop">View my shop</a>
+					</ul>
+				</div>
+			</div>
+			<div id="header_search">
+				<form method="post" action="index.php?controller=AdminSearch&amp;token=f7fafa864af970135b64380fae21757d">
+					<input type="text" name="bo_query" id="bo_query" value="" />
+					<select name="bo_search_type" id="bo_search_type" class="chosen no-search">
+						<option value="0">everywhere</option>
+						<option value="1" >catalog</option>
+						<optgroup label="customers:">
+							<option value="2" >by name</option>
+							<option value="6" >by ip address</option>
+						</optgroup>
+						<option value="3" >orders</option>
+						<option value="4" >invoices</option>
+						<option value="5" >carts</option>
+						<option value="7" >modules</option>
+					</select>
+					<input type="submit" id="bo_search_submit" class="button" value="Search"/>
+				</form>
+			</div>
+			<div id="header_quick">
+				<select onchange="quickSelect(this);" id="quick_select" class="chosen no-search">
+					<option value="0">Quick Access</option>
+											<option value="index.php">&raquo; Home</option>
+											<option value="http://test.hairfinity.interranetworks.com/_blank">&raquo; My Shop</option>
+											<option value="index.php?controller=AdminCategories&amp;addcategory&amp;token=0212c698540ea0b0e96444d9999366a0">&raquo; New category</option>
+											<option value="index.php?controller=AdminProducts&amp;addproduct&amp;token=2109518a1df9cbd5ac18d5b3990eef11">&raquo; New product</option>
+											<option value="index.php?controller=AdminCartRules&amp;addcart_rule&amp;token=1f7354c720442290be0eda8d3ea254c3">&raquo; New voucher</option>
+									</select>
+			</div>
+		</div>
+		<ul id="menu">
+					<li class="submenu_size maintab " id="maintab9">
+						<a href="#" class="title">
+							<img src="../img/t/AdminCatalog.gif" alt="" />Catalog						</a>
+						<ul class="submenu">
+																								<li><a href="index.php?controller=AdminProducts&amp;token=2109518a1df9cbd5ac18d5b3990eef11">Products</a></li>
+																																<li><a href="index.php?controller=AdminCategories&amp;token=0212c698540ea0b0e96444d9999366a0">Categories</a></li>
+																																<li><a href="index.php?controller=AdminTracking&amp;token=3629760c2217eead59c5eac82e6e5dd4">Monitoring</a></li>
+																																<li><a href="index.php?controller=AdminAttributesGroups&amp;token=1a49b17b3b13a7d307fb7fe03ce45571">Attributes and Values</a></li>
+																																<li><a href="index.php?controller=AdminFeatures&amp;token=ebdef37bc3f6c6c0fa6f611a548d88cb">Features</a></li>
+																																<li><a href="index.php?controller=AdminManufacturers&amp;token=8b1c24df7f62663f610de005bdf432ff">Manufacturers</a></li>
+																																<li><a href="index.php?controller=AdminSuppliers&amp;token=6841e7bfe82d67034c97a89dd8720ca2">Suppliers</a></li>
+																																<li><a href="index.php?controller=AdminScenes&amp;token=91eccb812be38b6d4148e7a69f7300a4">Image Mapping</a></li>
+																																<li><a href="index.php?controller=AdminTags&amp;token=0af169006261514102e94f84059abf72">Tags</a></li>
+																																<li><a href="index.php?controller=AdminAttachments&amp;token=b883c371e72dd2ff7806004adcdf6552">Attachments</a></li>
+																					</ul>
+					</li>
+					<li class="submenu_size maintab " id="maintab10">
+						<a href="#" class="title">
+							<img src="../img/t/AdminParentOrders.gif" alt="" />Orders						</a>
+						<ul class="submenu">
+																								<li><a href="index.php?controller=AdminOrders&amp;token=dd83541310cd79ee2408b9f7a31d1fee">Orders</a></li>
+																																<li><a href="index.php?controller=AdminInvoices&amp;token=8844315a854f9d69d4c99d6a7d72f072">Invoices</a></li>
+																																<li><a href="index.php?controller=AdminReturn&amp;token=1e4016cc2b51a81de5ef744d2529c31b">Merchandise Returns</a></li>
+																																<li><a href="index.php?controller=AdminDeliverySlip&amp;token=4687f22185002aeeb074a7a85bc3da5f">Delivery Slips</a></li>
+																																<li><a href="index.php?controller=AdminSlip&amp;token=3e41799706d1e36180409e01c1dcae4d">Credit Slips</a></li>
+																																<li><a href="index.php?controller=AdminStatuses&amp;token=5d854cc1ed8706f15e3e8cc692afa7cd">Statuses</a></li>
+																																<li><a href="index.php?controller=AdminOrderMessage&amp;token=97f4081f87c757bbc331e6a0cd36df51">Order Messages</a></li>
+																					</ul>
+					</li>
+					<li class="submenu_size maintab " id="maintab11">
+						<a href="#" class="title">
+							<img src="../img/t/AdminParentCustomer.gif" alt="" />Customers						</a>
+						<ul class="submenu">
+																								<li><a href="index.php?controller=AdminCustomers&amp;token=427958071f4ecc732c8271b72c8d0687">Customers</a></li>
+																																<li><a href="index.php?controller=AdminAddresses&amp;token=82f8f14641a8c56e34ad10f0ff2e4e1d">Addresses</a></li>
+																																<li><a href="index.php?controller=AdminGroups&amp;token=ea4418464fbd3b254422692f512b2934">Groups</a></li>
+																																<li><a href="index.php?controller=AdminCarts&amp;token=2857722a156425dfe76e2a8f42e4a80c">Shopping Carts</a></li>
+																																<li><a href="index.php?controller=AdminCustomerThreads&amp;token=409b361d34179a6cbd155dc8a253675e">Customer Service</a></li>
+																																<li><a href="index.php?controller=AdminContacts&amp;token=cc35b54a1b13709e9000c3e0db8abf22">Contacts</a></li>
+																																<li><a href="index.php?controller=AdminGenders&amp;token=5ef5c7d86cf72f2718c74a6094a5d37f">Titles</a></li>
+																					</ul>
+					</li>
+					<li class="submenu_size maintab " id="maintab12">
+						<a href="#" class="title">
+							<img src="../img/t/AdminPriceRule.gif" alt="" />Price Rules						</a>
+						<ul class="submenu">
+																								<li><a href="index.php?controller=AdminCartRules&amp;token=1f7354c720442290be0eda8d3ea254c3">Cart Rules</a></li>
+																																<li><a href="index.php?controller=AdminSpecificPriceRule&amp;token=1e68b46c2198ac84e2d2fc5945310e4c">Catalog Price Rules</a></li>
+																																<li><a href="index.php?controller=AdminMarketing&amp;token=0002d42e241b9c812b452828ded4b7ca">Marketing</a></li>
+																					</ul>
+					</li>
+					<li class="submenu_size maintab " id="maintab13">
+						<a href="#" class="title">
+							<img src="../img/t/AdminParentShipping.gif" alt="" />Shipping						</a>
+						<ul class="submenu">
+																								<li><a href="index.php?controller=AdminShipping&amp;token=092017020e6ad9cc9b1775c1451eadc8">Shipping</a></li>
+																																<li><a href="index.php?controller=AdminCarriers&amp;token=321ebc1dcdbe8431f7b203882d942301">Carriers</a></li>
+																					</ul>
+					</li>
+					<li class="submenu_size maintab " id="maintab14">
+						<a href="#" class="title">
+							<img src="../img/t/AdminParentLocalization.gif" alt="" />Localization						</a>
+						<ul class="submenu">
+																								<li><a href="index.php?controller=AdminLocalization&amp;token=00750a5ea2522ea40d0f648f8ab3545b">Localization</a></li>
+																																<li><a href="index.php?controller=AdminLanguages&amp;token=2ac6c354a079026bc72c13c07367827a">Languages</a></li>
+																																<li><a href="index.php?controller=AdminZones&amp;token=06d900f7e01823785321201e9e78d068">Zones</a></li>
+																																<li><a href="index.php?controller=AdminCountries&amp;token=226a49be72763c1270752bd94f3e94dc">Countries</a></li>
+																																<li><a href="index.php?controller=AdminStates&amp;token=a62cf4ee270da44c4f5fb7884478b006">States</a></li>
+																																<li><a href="index.php?controller=AdminCurrencies&amp;token=b82c4a358271163271af898e55f95849">Currencies</a></li>
+																																<li><a href="index.php?controller=AdminTaxes&amp;token=dcef58e9d6d77233325065ecff2de0df">Taxes</a></li>
+																																<li><a href="index.php?controller=AdminTaxRulesGroup&amp;token=f7de57eda54f673847c6489a1f328715">Tax Rules</a></li>
+																																<li><a href="index.php?controller=AdminTranslations&amp;token=c3a70fc5d43ef03d9d2ab76c34edb70e">Translations</a></li>
+																					</ul>
+					</li>
+					<li class="submenu_size maintab " id="maintab15">
+						<a href="#" class="title">
+							<img src="../img/t/AdminParentModules.gif" alt="" />Modules						</a>
+						<ul class="submenu">
+																								<li><a href="index.php?controller=AdminModules&amp;token=b1e957af3b8d124078cbd6410d780a46">Modules</a></li>
+																																<li><a href="index.php?controller=AdminAddonsCatalog&amp;token=cdb73b4b1f083c439a59e4aee711bb08">Modules &amp; Themes Catalog</a></li>
+																																<li><a href="index.php?controller=AdminModulesPositions&amp;token=1e08b005120a3031087b36849117f4d2">Positions</a></li>
+																																<li><a href="index.php?controller=AdminPayment&amp;token=9a83c9e402a1a5fb627c0e352d56d8cb">Payment</a></li>
+																					</ul>
+					</li>
+					<li class="submenu_size maintab active" id="maintab16">
+						<a href="#" class="title">
+							<img src="../img/t/AdminParentPreferences.gif" alt="" />Preferences						</a>
+						<ul class="submenu">
+																								<li><a href="index.php?controller=AdminPreferences&amp;token=e14334d98a57e65b6599d874ff1aa230">General</a></li>
+																																<li><a href="index.php?controller=AdminOrderPreferences&amp;token=949d131cce7bce6ca47a0eef1e82c655">Orders</a></li>
+																																<li><a href="index.php?controller=AdminPPreferences&amp;token=b73e17ba33866dd1373ee6c5cca13f71">Products</a></li>
+																																<li><a href="index.php?controller=AdminCustomerPreferences&amp;token=f860387b7164ed3ed7de74e5340e9c21">Customers</a></li>
+																																<li><a href="index.php?controller=AdminThemes&amp;token=0fce7fea15bab0b678181675710f8460">Themes</a></li>
+																																<li><a href="index.php?controller=AdminMeta&amp;token=45f72ebc90f0737c74d30a6ece66ece7">SEO &amp; URLs</a></li>
+																																<li class="active"><a href="index.php?controller=AdminCmsContent&amp;token=4e4434596acf50ddc5255dfae2cedb38">CMS</a></li>
+																																<li><a href="index.php?controller=AdminImages&amp;token=c5e438a115d67bc8ebda87dd581e3040">Images</a></li>
+																																<li><a href="index.php?controller=AdminStores&amp;token=c97081639f399c0380f0fb55740fdf69">Store Contacts</a></li>
+																																<li><a href="index.php?controller=AdminSearchConf&amp;token=bb613b01fb94f41d238c8cb2952252ea">Search</a></li>
+																																<li><a href="index.php?controller=AdminMaintenance&amp;token=d59b1a0149727571c68343a81e3ba8c2">Maintenance</a></li>
+																																<li><a href="index.php?controller=AdminGeolocation&amp;token=c4b2e84e57bc04453903168be64f9f63">Geolocation</a></li>
+																					</ul>
+					</li>
+					<li class="submenu_size maintab " id="maintab17">
+						<a href="#" class="title">
+							<img src="../img/t/AdminTools.gif" alt="" />Advanced Parameters						</a>
+						<ul class="submenu">
+																								<li><a href="index.php?controller=AdminInformation&amp;token=a3947568332948978797ac60c01bc78d">Configuration Information</a></li>
+																																<li><a href="index.php?controller=AdminPerformance&amp;token=268795f5ab07eca1586e4780e70961da">Performance</a></li>
+																																<li><a href="index.php?controller=AdminEmails&amp;token=810e80c3c25db295bc262f382f31d973">E-mail</a></li>
+																																<li><a href="index.php?controller=AdminImport&amp;token=160dd1dad7d30d02e79db1ada623b3a8">CSV Import</a></li>
+																																<li><a href="index.php?controller=AdminBackup&amp;token=1bca52a1e43e849f563247f05bdb63f7">DB Backup</a></li>
+																																<li><a href="index.php?controller=AdminRequestSql&amp;token=1c9d61d9bed381afc285667703063e7f">SQL Manager</a></li>
+																																<li><a href="index.php?controller=AdminLogs&amp;token=1f1f7436755676be18b22fbd182fa9d2">Logs</a></li>
+																																<li><a href="index.php?controller=AdminWebservice&amp;token=234b0e11b0ecaa288ec1d4b77af810ba">Webservice</a></li>
+																					</ul>
+					</li>
+					<li class="submenu_size maintab " id="maintab18">
+						<a href="#" class="title">
+							<img src="../img/t/AdminAdmin.gif" alt="" />Administration						</a>
+						<ul class="submenu">
+																								<li><a href="index.php?controller=AdminAdminPreferences&amp;token=e5abf73059bdd0cc1253ff4a0ed58756">Preferences</a></li>
+																																<li><a href="index.php?controller=AdminQuickAccesses&amp;token=8de5aff1e92940d658ab906c83343acf">Quick Access</a></li>
+																																<li><a href="index.php?controller=AdminEmployees&amp;token=386023dbe951fa3aa6f087b60f420c1a">Employees</a></li>
+																																<li><a href="index.php?controller=AdminProfiles&amp;token=8c809abc9680e529cb3a8428e8a1876d">Profiles</a></li>
+																																<li><a href="index.php?controller=AdminAccess&amp;token=e5e918f20f3bf6b06184a03e375a18af">Permissions</a></li>
+																																<li><a href="index.php?controller=AdminTabs&amp;token=707e8fce6f60eb5441ddaadb21052a9d">Menus</a></li>
+																																<li><a href="index.php?controller=AdminGamification&amp;token=8fbbe3c7aeb670bf8307e9c1244939cf">Merchant Expertise</a></li>
+																					</ul>
+					</li>
+					<li class="submenu_size maintab " id="maintab19">
+						<a href="#" class="title">
+							<img src="../img/t/AdminParentStats.gif" alt="" />Stats						</a>
+						<ul class="submenu">
+																								<li><a href="index.php?controller=AdminStats&amp;token=abbccea77b38e2f671655c130a629b5a">Stats</a></li>
+																																<li><a href="index.php?controller=AdminSearchEngines&amp;token=cefd8467c2dab697669f60e3b7d70da7">Search Engines</a></li>
+																																<li><a href="index.php?controller=AdminReferrers&amp;token=07c3586d88ea7603a52804c04c6407ed">Referrers</a></li>
+																					</ul>
+					</li>
+		</ul>
+	</div>	
+	<div id="main">
+		<div id="content">
+
+
+
+	
+<div id="cms_toolbar" class="toolbar-placeholder">
+	<div class="toolbarBox toolbarHead">
+		
+			<ul class="cc_button">
+									<li>
+						<a id="desc-cms-save-and-preview" class="toolbar_btn" href="#" title="Save and preview" >
+							<span class="process-icon-save-and-preview " ></span>
+							<div >Save and preview</div>
+						</a>
+											</li>
+									<li>
+						<a id="desc-cms-save-and-stay" class="toolbar_btn" href="#" title="Save and stay" >
+							<span class="process-icon-save-and-stay " ></span>
+							<div >Save and stay</div>
+						</a>
+											</li>
+									<li>
+						<a id="desc-cms-save" class="toolbar_btn" href="#" title="Save" >
+							<span class="process-icon-save " ></span>
+							<div >Save</div>
+						</a>
+											</li>
+									<li>
+						<a id="desc-cms-back" class="toolbar_btn" href="index.php?controller=AdminCmsContent&token=4e4434596acf50ddc5255dfae2cedb38" title="Back to list" >
+							<span class="process-icon-back " ></span>
+							<div >Back to list</div>
+						</a>
+											</li>
+							</ul>
+
+			<script language="javascript" type="text/javascript">
+			//<![CDATA[
+				var submited = false
+				var modules_list_loaded = false;
+				$(function() {
+					//get reference on save link
+					btn_save = $('#cms_toolbar span[class~="process-icon-save"]').parent();
+
+					//get reference on form submit button
+					btn_submit = $('#cms_form_submit_btn');
+
+					if (btn_save.length > 0 && btn_submit.length > 0)
+					{
+						//get reference on save and stay link
+						btn_save_and_stay = $('span[class~="process-icon-save-and-stay"]').parent();
+
+						//get reference on current save link label
+						lbl_save = $('#desc-cms-save div');
+
+						//override save link label with submit button value
+						if (btn_submit.val().length > 0)
+							lbl_save.html(btn_submit.attr("value"));
+
+						if (btn_save_and_stay.length > 0)
+						{
+
+							//get reference on current save link label
+							lbl_save_and_stay = $('#desc-cms-save-and-stay div');
+
+							//override save and stay link label with submit button value
+							if (btn_submit.val().length > 0 && lbl_save_and_stay && !lbl_save_and_stay.hasClass('locked'))
+							{
+								lbl_save_and_stay.html(btn_submit.val() + " and stay ");
+							}
+
+						}
+
+						//hide standard submit button
+						btn_submit.hide();
+						//bind enter key press to validate form
+						$('#cms_form').keypress(function (e) {
+							if (e.which == 13 && e.target.localName != 'textarea' && !e.target.hasClass('tagify'))
+								$('#desc-cms-save').click();
+						});
+						//submit the form
+						
+							btn_save.click(function() {
+								// Vars
+								var btn_submit = $('#cms_form_submit_btn');
+
+								// Avoid double click
+								if (submited)
+									return false;
+								submited = true;
+								
+								//add hidden input to emulate submit button click when posting the form -> field name posted
+								btn_submit.before('<input type="hidden" name="'+btn_submit.attr("name")+'" value="1" />');
+
+								$('#cms_form').submit();
+								return false;
+							});
+
+							if (btn_save_and_stay)
+							{
+								btn_save_and_stay.click(function() {
+									//add hidden input to emulate submit button click when posting the form -> field name posted
+									btn_submit.before('<input type="hidden" name="'+btn_submit.attr("name")+'AndStay" value="1" />');
+
+									$('#cms_form').submit();
+									return false;
+								});
+							}
+						
+					}
+									});
+							//]]>
+			</script>
+		
+		<div class="pageTitle">
+			<h3>
+				<span id="current_obj" style="font-weight: normal;">
+																		
+							<span class="breadcrumb item-0 ">CMS Pages
+																	<img alt="&gt;" style="margin-right:5px" src="../img/admin/separator_breadcrumb.png" />
+															</span>
+													
+							<span class="breadcrumb item-1 ">Edit
+															</span>
+															</span>
+				
+			</h3>
+		</div>
+	</div>
+</div>
+
+	<div class="leadin">
+	<div class="warn draft" style="display:none">
+		<p>
+		<span style="float: left">
+		Your CMS page will be saved as a draft
+		</span>
+		<br class="clear" />
+		</p>
+	</div>
+</div>
+
+
+<form id="cms_form" class="defaultForm AdminCmsContent" action="index.php?controller=AdminCmsContent&submitAddcms=1&token=4e4434596acf50ddc5255dfae2cedb38" method="post" enctype="multipart/form-data" >
+			<input type="hidden" name="id_cms" id="id_cms" value="12" />
+				<fieldset id="fieldset_0">
+											
+												<legend>
+						<img src="../img/admin/tab-categories.gif" alt="CMS Page" />						CMS Page
+					</legend>
+								
+																																
+								<label>CMS Category </label>							
+							
+								<div class="margin-form">
+								
+			
+			<select name="id_cms_category">
+			<option value="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Home</option><option value="2" selected="selected">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hairfinity Menu pages</option>
+		</select>
+	
+	
+								
+																	
+																</div>
+								<div class="clear"></div>
+							
+																																						
+								<label>Meta title </label>							
+							
+								<div class="margin-form">
+								
+			
+			
+																											<div class="translatable">
+																							<div class="lang_1" style="display:block; float: left;">
+																																							<input type="text"
+															name="meta_title_1"
+															id="name_1"
+															value="order online"
+															class="copyMeta2friendlyURL"
+															size="50"																																																												 />
+													<span class="hint" name="help_box">Invalid characters <>;=#{}<span class="hint-pointer">&nbsp;</span></span>												</div>
+																					</div>
+																									 <sup>*</sup>								
+	
+	
+								
+																	
+								<div class="clear"></div>								</div>
+								<div class="clear"></div>
+							
+																																						
+								<label>Meta description </label>							
+							
+								<div class="margin-form">
+								
+			
+			
+																											<div class="translatable">
+																							<div class="lang_1" style="display:block; float: left;">
+																																							<input type="text"
+															name="meta_description_1"
+															id="meta_description_1"
+															value=""
+															class=""
+															size="70"																																																												 />
+													<span class="hint" name="help_box">Invalid characters <>;=#{}<span class="hint-pointer">&nbsp;</span></span>												</div>
+																					</div>
+																																	
+	
+	
+								
+																	
+								<div class="clear"></div>								</div>
+								<div class="clear"></div>
+							
+																																						
+								<label>Meta keywords </label>							
+							
+								<div class="margin-form">
+								
+			
+			
+																											<div class="translatable">
+																							<div class="lang_1" style="display:block; float: left;">
+																											
+														<script type="text/javascript">
+															$().ready(function () {
+																var input_id = 'meta_keywords_1';
+																$('#'+input_id).tagify({delimiters: [13,44], addTagPrompt: 'Add tag'});
+																$('#cms_form').submit( function() {
+																	$(this).find('#'+input_id).val($('#'+input_id).tagify('serialize'));
+																});
+															});
+														</script>
+														
+																																							<input type="text"
+															name="meta_keywords_1"
+															id="meta_keywords_1"
+															value=""
+															class="tagify "
+															size="70"																																																												 />
+													<span class="hint" name="help_box">Invalid characters <>;=#{}<span class="hint-pointer">&nbsp;</span></span>												</div>
+																					</div>
+																																	
+	
+	
+								
+																			<p class="preference_description">
+																							To add &quot;tags&quot; click in the field, write something, and then press &quot;Enter.&quot;
+																					</p>
+																	
+								<div class="clear"></div>								</div>
+								<div class="clear"></div>
+							
+																																						
+								<label>Friendly URL </label>							
+							
+								<div class="margin-form">
+								
+			<script type="text/javascript">
+					var PS_ALLOW_ACCENTED_CHARS_URL = 0;
+				</script>
+		
+			
+																											<div class="translatable">
+																							<div class="lang_1" style="display:block; float: left;">
+																																							<input type="text"
+															name="link_rewrite_1"
+															id="link_rewrite_1"
+															value="orderonline"
+															class=""
+																																																																											 />
+													<span class="hint" name="help_box">Only letters and the minus (-) character are allowed<span class="hint-pointer">&nbsp;</span></span>												</div>
+																					</div>
+																									 <sup>*</sup>								
+	
+	
+								
+																	
+								<div class="clear"></div>								</div>
+								<div class="clear"></div>
+							
+																																						
+								<label>Page content </label>							
+							
+								<div class="margin-form">
+								
+			
+			
+																											<div class="translatable">
+																							<div class="lang_1" id="content_1" style="display:block; float: left;">
+													<textarea cols="40" rows="5" name="content_1" class="rte autoload_rte " >&lt;div class=&quot;main-content-container-testimonials clearfix&quot;&gt;&lt;!-- primary page content and page-top sidebar --&gt;
+&lt;div class=&quot;content-container&quot;&gt;&lt;!-- begin shop section --&gt;
+&lt;div class=&quot;content-page-shop-section clearfix&quot;&gt;
+&lt;div style=&quot;width: 1150px;&quot;&gt;
+&lt;h1&gt;Order Now&lt;/h1&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class=&quot;content-page-shop-section clearfix&quot;&gt;
+&lt;table style=&quot;width: 1150px;&quot; align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td colspan=&quot;3&quot; align=&quot;center&quot; valign=&quot;top&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width=&quot;200&quot;&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;../IMAGES/hairfinity1monthsupply.png&quot; alt=&quot;Hairfinity 1 Month Supply&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;h4&gt;1 Month Supply&lt;/h4&gt;
+&lt;/center&gt;
+&lt;p align=&quot;center&quot;&gt;$24.00&lt;/p&gt;
+&lt;center&gt;Plus shipping&lt;/center&gt;&lt;br /&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;a class=&quot;cta&quot; title=&quot;Hairfinity 1 Month Supply&quot; href=&quot;../../add.php?qty=1&amp;amp;id_product=8&quot;&gt;ORDER NOW&lt;/a&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width=&quot;200&quot;&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;../IMAGES/hairfinity2monthsupply.png&quot; alt=&quot;Hairfinity 2 Month Supply&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;h4&gt;2 Month Supply&lt;/h4&gt;
+&lt;/center&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;strong&gt;AVAILABLE SOON&lt;/strong&gt;&lt;/center&gt;&lt;br /&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;a class=&quot;cta&quot; title=&quot;Hairfinity 2 Month Supply&quot; style=&quot;width: 220px; padding-left: 12px; padding-top: 10px; padding-right: 12px;&quot; href=&quot;../../add.php?qty=1&amp;amp;id_product=9&quot;&gt;ONLY ON HAIRFINITY.COM.NG&lt;/a&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width=&quot;200&quot;&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;../IMAGES/hairfinity4monthsupply.png&quot; alt=&quot;Hairfinity 4 Month Supply&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;h4&gt;4 Month Supply&lt;/h4&gt;
+&lt;/center&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;strong&gt;AVAILABLE SOON&lt;/strong&gt;&lt;/center&gt;&lt;br /&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;a class=&quot;cta&quot; title=&quot;Hairfinity 4 Month Supply&quot; style=&quot;width: 220px; padding-left: 12px; padding-top: 10px; padding-right: 12px;&quot; href=&quot;../../add.php?qty=1&amp;amp;id_product=10&quot;&gt;ONLY ON HAIRFINITY.COM.NG&lt;/a&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table style=&quot;width: 1150px;&quot; align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td width=&quot;200&quot;&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;../IMAGES/hairfinity6monthsupply.png&quot; alt=&quot;Hairfinity 6 Month Supply&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;h4&gt;6 Month Supply&lt;/h4&gt;
+&lt;/center&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;strong&gt;AVAILABLE SOON&lt;/strong&gt;&lt;/center&gt;&lt;br /&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;a class=&quot;cta&quot; title=&quot;Hairfinity 6 Month Supply&quot; style=&quot;width: 220px; padding-left: 12px; padding-top: 10px; padding-right: 12px;&quot; href=&quot;../../add.php?qty=1&amp;amp;id_product=11&quot;&gt;ONLY ON HAIRFINITY.COM.NG&lt;/a&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width=&quot;200&quot;&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;../IMAGES/hairfinity12monthsupply.png&quot; alt=&quot;Hairfinity 12 Month Supply&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;h4&gt;12 Month Supply&lt;/h4&gt;
+&lt;/center&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;strong&gt;AVAILABLE SOON&lt;/strong&gt;&lt;/center&gt;&lt;br /&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;a class=&quot;cta&quot; title=&quot;Hairfinity 12 Month Supply&quot; style=&quot;width: 220px; padding-left: 12px; padding-top: 10px; padding-right: 12px;&quot; href=&quot;../../add.php?qty=1&amp;amp;id_product=12&quot;&gt;ONLY ON HAIRFINITY.COM.NG&lt;/a&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</textarea>
+												</div>
+																					</div>
+																																	
+	
+	
+								
+																	
+								<div class="clear"></div>								</div>
+								<div class="clear"></div>
+							
+																																						
+								<label>Indexation (by search engines): </label>							
+							
+								<div class="margin-form">
+								
+			
+			
+																											<input type="radio" name="indexation" id="indexation_on" value="1"
+												checked="checked"												 />
+										<label class="t" for="indexation_on">
+										 																							<img src="../img/admin/enabled.gif" alt="Enabled" title="Enabled" />
+																					 										</label>
+																																							<input type="radio" name="indexation" id="indexation_off" value="0"
+																								 />
+										<label class="t" for="indexation_off">
+										 																							<img src="../img/admin/disabled.gif" alt="Disabled" title="Disabled" />
+																					 										</label>
+																																																					
+	
+	
+								
+																	
+																</div>
+								<div class="clear"></div>
+							
+																																						
+								<label>Displayed </label>							
+							
+								<div class="margin-form">
+								
+			
+			
+																											<input type="radio" name="active" id="active_on" value="1"
+												checked="checked"												 />
+										<label class="t" for="active_on">
+										 																							<img src="../img/admin/enabled.gif" alt="Enabled" title="Enabled" />
+																					 										</label>
+																																							<input type="radio" name="active" id="active_off" value="0"
+																								 />
+										<label class="t" for="active_off">
+										 																							<img src="../img/admin/disabled.gif" alt="Disabled" title="Disabled" />
+																					 										</label>
+																																																					
+	
+	
+								
+																	
+																</div>
+								<div class="clear"></div>
+							
+																							
+																	
+													
+												<div class="margin-form">
+						<input type="submit"
+							id="cms_form_submit_btn"
+							value="Save"
+							name="submitAddcms"
+							class="button" />
+					</div>
+								
+										<div class="small"><sup>*</sup> Required field</div>
+					</fieldset>
+		
+			</form>
+
+
+
+	<script type="text/javascript">
+
+	var iso = 'en';
+	var pathCSS = '/themes/default/css/';
+	var ad = '/admin5274';
+
+	/*$(document).ready(function(){
+		
+			tinySetup({
+				editor_selector :"autoload_rte"
+			});
+		
+	}); */
+	$(document).ready(function(){
+        
+            tinySetup({
+                editor_selector :"autoload_rte",
+                                  theme_advanced_buttons1 : "save,newdocument,bold,italic,underline,strikethrough,justifyleft,justifycenter,justifyright,justifyfull,styleselect,formatselect, fontselect,fontsizeselect",
+                                  theme_advanced_buttons2 : "cut,copy,paste,pastetext,pasteword,search,replace,bullist,numlist,outdent,indent,blockquote,undo,redo,link,unlink,anchor,image,cleanup,help,codemagic,insertdate,inserttime,preview,forecolor,backcolor",
+                                  theme_advanced_buttons3 : "code,tablecontrols,hr,removeformat,visualaid,sub,sup,charmap,emotions,iespell,media,advhr,print,ltr,rtl,fullscreen",
+                                  theme_advanced_buttons4 : "styleprops,cite,abbr,acronym,del,ins,attribs,visualchars,nonbreaking,template,pagebreak,restoredraft,visualblocks",
+                                  theme_advanced_toolbar_location : "top",
+                                  theme_advanced_toolbar_align : "left",
+                                  theme_advanced_statusbar_location : "bottom",
+                                  theme_advanced_resizing : false,
+                                                    extended_valid_elements: 'pre[*],script[*],style[*]',
+                                                    valid_children: "+body[style|script],pre[script|div|p|br|span|img|style|h1|h2|h3|h4|h5],*[*]",
+                                                    valid_elements : '*[*]',
+                                                    force_p_newlines : false,
+                                                    cleanup: false,
+                                                    forced_root_block : false,
+                                                    force_br_newlines : true
+            });
+        
+    });
+	</script>
+	<script type="text/javascript">
+		var module_dir = '/modules/';
+		var id_language = 1;
+		var languages = new Array();
+		var vat_number = 1;
+		// Multilang field setup must happen before document is ready so that calls to displayFlags() to avoid
+		// precedence conflicts with other document.ready() blocks
+					languages[0] = {
+				id_lang: 1,
+				iso_code: 'en',
+				name: 'English (English)',
+				is_default: '1'
+			};
+				// we need allowEmployeeFormLang var in ajax request
+		allowEmployeeFormLang = 0;
+		employee_token = '386023dbe951fa3aa6f087b60f420c1a';
+		displayFlags(languages, id_language, allowEmployeeFormLang);
+
+		$(document).ready(function() {
+			
+			if ($(".datepicker").length > 0)
+				$(".datepicker").datepicker({
+					prevText: '',
+					nextText: '',
+					dateFormat: 'yy-mm-dd'
+				});
+
+		});
+	state_token = 'a62cf4ee270da44c4f5fb7884478b006';
+	
+	$(document).ready(function() {
+		if (btn_submit.length > 0)
+		{
+			//get reference on save and stay link
+			btn_save_and_preview = $('span[class~="process-icon-save-and-preview"]').parent();
+
+			//get reference on current save link label
+			lbl_save = $('#desc-cms-save div');
+
+			//submit the form
+				if (btn_save_and_preview)
+				{
+					btn_save_and_preview.click(function() {
+						//add hidden input to emulate submit button click when posting the form -> field name posted
+						btn_submit.before('<input type="hidden" name="'+btn_submit.attr("name")+'AndPreview" value="1" />');
+						$('#cms_form').submit();
+					});
+				}
+		}
+		$('#active_on').bind('click', function(){
+			toggleDraftWarning(false);
+		});
+		$('#active_off').bind('click', function(){
+			toggleDraftWarning(true);
+		});		
+	});
+
+	</script>
+
+
+			<div style="clear:both;height:0;line-height:0">&nbsp;</div>
+		</div>
+		<div style="clear:both;height:0;line-height:0">&nbsp;</div>
+	</div>
+
+			<div id="footer">
+				<div class="footerLeft">
+					<a href="http://www.prestashop.com/" target="_blank">PrestaShop&trade; 1.5.6.2</a><br />
+					<span>Load time0.199s</span>
+				</div>
+				<div class="footerRight">
+										|&nbsp;<a href="http://www.prestashop.com/en/contact-us?utm_source=backoffice_footer" target="_blank" class="footer_link">Contact</a>
+					|&nbsp;<a href="http://forge.prestashop.com/?utm_source=backoffice_footer" target="_blank" class="footer_link">Bug Tracker</a>
+					|&nbsp;<a href="http://www.prestashop.com/forums/?utm_source=backoffice_footer" target="_blank" class="footer_link">Forum</a>
+					|&nbsp;<a href="http://addons.prestashop.com/?utm_source=backoffice_footer" target="_blank" class="footer_link">Addons</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="ajax_confirmation" style="display:none"></div>
+	<div id="ajaxBox" style="display:none"></div>
+	<div id="scrollTop"><a href="#top"></a></div>
+</body>
+</html>

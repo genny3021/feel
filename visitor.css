@@ -1,0 +1,709 @@
+body {
+    font-size: 14px;
+    padding: 20px;
+    overflow-y: scroll;
+}
+.container h1 {
+    display: block;
+    font-size: 26px;
+    font-weight: normal;
+    border-bottom: none;
+    margin-bottom: 15px;
+    padding-bottom: 5px
+}
+
+.container h2 {
+    display: block;
+    font-size: 28px;
+    font-weight: normal;
+    margin: 0 0 20px 0
+}
+
+.container h3 {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 20px 0
+}
+
+.container {
+    padding-bottom: 25px;
+}
+.container,
+.foot-container{
+    width:515px;
+    border-bottom: none;
+    overflow: hidden;
+    margin: 0 auto 5px;
+}
+#optin,
+#optin .colLeft,
+#optin fieldset{
+    overflow: visible;
+}
+.txt-mid{
+    font-size: 10px;
+}
+.txt-mid strong{
+    font-weight: normal;
+}
+#visitorSiteLogo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#visitorSiteLogo > img {
+    max-height: 100px;
+    max-width:300px;
+}
+fieldset {
+    padding: 15px;
+    background-color: rgb(248, 248, 248);
+    background-color: rgba(248, 248, 248, 0.8);
+    color: #333;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    width: auto;
+    margin: 0;
+}
+
+fieldset a, fieldset a:link, fieldset a:visited {
+    color: #333;
+}
+fieldset a.text-link, fieldset a.text-link:link, fieldset a.text-link:visited {
+    color: #007BBF;
+    text-decoration: none;
+}
+fieldset a.text-link:hover{
+    text-decoration: underline;
+}
+
+.outer-fieldset {
+    background-color: rgb(248, 248, 248);
+    background-color: rgba(248, 248, 248, 0.8);
+    color: #333;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding-top: 15px;
+}
+
+.outer-fieldset fieldset {
+    background-color: transparent;
+}
+
+input[type='text'] {
+    width: 150px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+input[type="text"],
+input[type="password"],
+textarea{
+    background-color: #f7f7f7;
+    color:#5b5b5b;
+    border:solid 1px #c0c0c0;
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3) inset;
+    -webkit-box-shadow:0px 1px 3px 0px rgba(0, 0, 0, 0.3) inset;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3) inset;
+}
+input.email-input {
+    width: 220px;
+}
+
+select {
+    width: 162px;
+    height: 25px;
+    border: 1px solid #ccc;
+}
+
+label {
+    margin: 3px 10px 3px 0;
+}
+
+textarea {
+    width: 400px;
+    height: 150px;
+    padding: 5px;
+    border: 1px solid #ccc
+}
+
+ol li {
+    padding-bottom: 0px;
+}
+.preview.container{
+
+}
+.screen-width-indent .container > ol > li,
+.preview.container > ol > li{
+    margin-bottom: 25px;
+}
+.colLeft {
+    width: 445px;
+    float: left;
+    padding-right: 50px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.colLeft fieldset {
+    width: 415px;
+}
+.colLeft fieldset.optin_profile{
+    width:100%;
+}
+.colLeftLarge {
+    width: 640px;
+    float: left;
+    margin: 20px 50px 0 0;
+}
+
+.colLeftLarge fieldset {
+    width: 610px;
+}
+.screen-width-indent .colLeftLarge {
+    width: 100%;
+    float: left;
+    margin: 0;
+}
+
+.screen-width-indent .colLeftLarge fieldset {
+    width: 450px;
+}
+
+.colRight {
+    padding-left: 50px;
+    width: 394px;
+    float: left;
+    overflow: hidden;
+    border-left: solid 1px #AAAAAA;
+    margin-top: 20px;
+}
+
+.colRight fieldset {
+    width: 364px;
+}
+
+.colRightSm {
+    width: 250px;
+    float;
+    right;
+    overflow: hidden
+}
+
+.profile-label, .data-col {
+    float: left;
+}
+
+.data-col {
+    float: left;
+    position: relative;
+    width: auto;
+}
+
+.data-col #errorBlock {
+}
+
+.opt-check {
+    margin-bottom: 4px;
+}
+
+#noListError {
+    display: none;
+}
+.visitorActions {
+    clear: both;
+    padding-top: 10px;
+}
+
+#addForm .visitorActions {
+    padding-top: 20px;
+}
+
+.profile-label {
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+.prop-input label {
+    display: block;
+    width: 75%;
+    float: left;
+    position: relative;
+}
+.prop-input label .required{
+    position: absolute;
+    left: -10px;
+}
+.prop-input, .updateEmail {
+    clear: both;
+    margin-bottom: 5px;
+}
+.prop-input[data-name="State/Province"],
+.prop-input[data-name="State/Province"] > select{
+    width:300px !important;
+}
+.prop-input[data-name="State/Province"] > input{
+    width:288px !important;
+}
+.prop-input[data-name="State/Province"]{
+    float: left;
+}
+.prop-input[data-name="Zip Code"]{
+    clear: none;
+    float:right;
+    width:170px;
+}
+.prop-input[data-name="Zip Code"] > input{
+    width: 158px !important;
+}
+[data-name="Country"] > label{
+    display: none;
+}
+[data-name="Country"] > select{
+    float:left !important;
+    width:100% !important;
+}
+.updateEmail label {
+    display: block;
+    float: left;
+}
+
+fieldset legend {
+    color: #5b5b5b;
+    margin: 0;
+    padding: 0;
+    background: none;
+}
+
+.check-index {
+    padding-left: 35px;
+}
+
+#eaUpdateErrors {
+    display: none;
+    padding: 5px 15px;
+}
+
+#emailFormat, #captchaBlock {
+    padding-top: 15px;
+}
+#emailFormat{
+    display: none;
+}
+
+.other-inbox {
+    border: 1px solid #D6D6D6;
+    background-color: #f8f8f8;
+    background-color: rgba(248, 248, 248, 0.8);
+    padding: 15px;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+}
+
+.other-inbox {
+    line-height: 18px;
+}
+
+.unsub-opt, .check-index div {
+    padding: 4px 0px;
+}
+.screen-width-indent .unsub-opt input,
+.screen-width-indent .unsub-opt label{
+    float: left;
+}
+.screen-width-indent .unsub-opt input{
+    margin: 5px 21px 0 0;
+}
+.screen-width-indent .unsub-opt label{
+    width: 420px;
+}
+#intCats input[type=checkbox]{
+    margin-left: 0;
+}
+.unsubscribe-block label {
+    display: block;
+    font-size: 14px;
+    margin-left: 0;
+}
+
+.unsubscribe-block input {
+    font-style: italic;
+    font-size: 14px;
+    width: 250px;
+}
+
+.profile-block label {
+    margin: 0;
+    font-weight: bold;
+}
+
+.sect-header {
+    font-size: 14px;
+    margin: 5px 0 10px;
+    font-weight: bold;
+}
+.screen-width-indent{
+    font-size: 14px;
+}
+.screen-width-indent .container,
+.preview.container{
+    
+    width:540px;
+}
+.screen-width-indent h1,
+.screen-width-indent h2,
+.screen-width-indent h3,
+.preview.container h1,
+.preview.container h2,
+.preview.container h3{
+    color: inherit;
+}
+.screen-width-indent fieldset,
+.preview.container fieldset{
+    background-color: transparent;
+    color: inherit;
+    font-size: inherit;
+    margin-bottom: 10px;
+}
+.screen-width-indent #subProfile fieldset,
+.screen-width-indent .background-wrapper,
+.preview.container .background-wrapper{
+    padding:15px;
+}
+.preview.container .background-wrapper{
+    padding:30px;
+}
+.preview.container .background-wrapper input[type="text"]{
+    width:466px;
+}
+.preview.container .background-wrapper.signup_preview{
+    border-radius: 10px;
+    border:solid 1px;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+.screen-width-indent .container.opt_out .unsub-opt{
+    /*display:none;*/
+}
+.screen-width-indent #emailAddr,
+.screen-width-indent #confirmEmailAddr{
+    width:480px;
+}
+.screen-width-indent .visitorActions.sidepadded,
+.preview.container .visitorActions.sidepadded{
+    padding: 10px 15px;
+}
+.screen-width-indent .form-background-wrapper,
+.preview.container .form-background-wrapper{
+    background-color: transparent;
+    border:1px solid;
+    border-radius: 5px;
+    padding:20px 30px;
+    margin-bottom: 10px;
+}
+.screen-width-indent .form-background-wrapper > div,
+.preview.container .form-background-wrapper > div{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-left: none;
+}
+.screen-width-indent .form-background-wrapper.colLeftLarge,
+.preview.container .form-background-wrapper.colLeftLarge{
+    width:473px;
+}
+.screen-width-indent .form-background-wrapper.colLeftLarge legend,
+.preview.container .form-background-wrapper.colLeftLarge legend{
+    padding-bottom: 0;
+}
+.screen-width-indent #subProfile fieldset,
+.preview.container #subProfile fieldset{
+    background-color: inherit;
+    padding: 0;
+    width: auto;
+}
+.screen-width-indent .form-background-wrapper.colLeftLarge fieldset
+.preview.container .form-background-wrapper.colLeftLarge fieldset{
+    padding:0;
+    width:473px;
+}
+.screen-width-indent .form-background-wrapper.colLeftLarge fieldset.background-wrapper,
+.preview.container .form-background-wrapper.colLeftLarge fieldset.background-wrapper{
+    margin-top: 20px;
+    margin-bottom: 8px;
+    padding:15px;
+    width:443px;
+}
+.screen-width-indent .form-background-wrapper fieldset.nopad{
+    margin-top: 0 !important;
+    padding:15px 0;
+    width: 480px;
+}
+.screen-width-indent .form-background-wrapper fieldset.nopad .check-index{
+    border: 1px solid #c0c0c0;
+    background-color: transparent;
+    padding-left: 0;
+    margin-left:35px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.screen-width-indent .form-background-wrapper fieldset.nopad .check-index > div {
+    padding-left: 10px;
+    border-bottom: solid 1px #f7f7f7;
+}
+.screen-width-indent .form-background-wrapper fieldset.nopad .check-index > div > label{
+    margin-left: 5px;
+}
+.screen-width-indent .form-background-wrapper.colLeftLarge fieldset.background-wrapper label,
+.preview.container .form-background-wrapper.colLeftLarge fieldset.background-wrapper label{
+    display: block;
+    margin-bottom: 6px;
+}
+.screen-width-indent .form-background-wrapper.colLeftLarge fieldset.background-wrapper input[type=text],
+.preview.container .form-background-wrapper.colLeftLarge fieldset.background-wrapper input[type=text]{
+    width: 431px;
+}
+.screen-width-indent .form-background-wrapper.colLeftLarge fieldset.background-wrapper .unsub-opt label,
+.preview.container .form-background-wrapper.colLeftLarge fieldset.background-wrapper .unsub-opt label{
+    margin-right: 0;
+    width:410px;
+}
+.screen-width-indent .form-background-wrapper.colLeftLarge fieldset legend,
+.preview.container .form-background-wrapper.colLeftLarge fieldset legend{
+    margin-bottom: 9px;
+}
+.screen-width-indent .form-background-wrapper.colLeftLarge p,
+.preview.container .form-background-wrapper.colLeftLarge p{
+    margin-top: 0;
+}
+.screen-width-indent input[type="text"],
+.screen-width-indent input[type="password"],
+.screen-width-indent textarea,
+.preview.container input[type="text"],
+.preview.container input[type="password"],
+.preview.container textarea{
+    background-color: #ffffff;
+    border:solid 1px #c0c0c0;
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3) inset;
+    -webkit-box-shadow:0px 1px 3px 0px rgba(0, 0, 0, 0.3) inset;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3) inset;
+    font-size: inherit;
+    height:28px;
+    width: 438px;
+}
+.screen-width-indent .profile-label,
+.screen-width-indent .profile-label > label,
+.preview.container .profile-label,
+.preview.container .profile-label > label{
+    margin-top: 0;
+}
+.screen-width-indent .profile-label
+.preview.container .profile-label{
+    margin-bottom: 7px;
+}
+.screen-width-indent textarea,
+.preview.container textarea{
+    height: auto;
+}
+.screen-width-indent #enteredReason,
+.preview.container #enteredReason{
+    background: #f7f7f7;
+    width: 445px;
+    height: 145px;
+}
+.screen-width-indent .btn,
+.preview.container .btn{
+    font-size: 16px;
+    font-weight: normal;
+    padding: 6px 8px;
+    cursor: pointer;
+}
+.screen-width-indent .btn-primary.full,
+.preview.container .btn-primary.full{
+    font-size: 20px;
+    font-weight: bold;
+    width:100%;
+    padding: 10px 0;
+}
+.screen-width-indent .btn-primary.full:hover,
+.preview.container .btn-primary.full:hover{
+}
+.screen-width-indent .btn-link,
+.preview.container .btn-link{
+    background: none repeat scroll 0 0 transparent;
+    border-color: transparent;
+    border-radius: 0 0 0 0;
+    box-shadow: none;
+    color: #0088CC;
+}
+.screen-width-indent .btn-link:hover,
+.preview.container .btn-link:hover{
+    text-decoration: underline;
+}
+a.btn-primary.boot,
+a.btn-primary.boot:visited,
+.btn-primary.boot{
+    background-color: #2B8FCA;
+    background-image: linear-gradient(to bottom, #49A0D1, #0077C0);
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: white;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+}
+.btn-primary.boot,
+a.btn-primary.boot,
+a.btn-primary.boot.disabled,
+.btn-primary.boot.disabled{
+    font-weight: 500;
+}
+.btn-primary.boot:hover,
+.btn-primary.boot:active,
+.btn-primary.boot.active,
+.btn-primary.boot.disabled,
+a.btn-primary.boot:hover,
+a.btn-primary.boot:active,
+a.btn-primary.boot.active,
+a.btn-primary.boot.disabled{
+    background-image: linear-gradient(to bottom, #0077C0, #49A0D1);
+    background-color: #0077c0;
+}
+.btn-large,
+a.btn-large,
+.btn-group > .btn-large{
+    border-radius: 6px 6px 6px 6px;
+    font-size: 16px;
+    padding: 11px 19px;
+}
+
+.pull-right{
+    float: right;
+}
+.pull-left{
+    float: left;
+}
+.clear{
+    clear:both;
+}
+.screen-width-indent .notify-large-success,
+.preview.container .notify-large-success{
+    border:none;
+    border-radius: 5px;
+    color: #656c02;
+    font-size: 16px;
+    font-weight: normal;
+}
+#optin{
+
+}
+#optin > h1{
+    text-align: left;
+}
+#optin #addForm input[type="text"],
+#optin #addForm input[type="password"],
+#optin #addForm textarea{
+    background-color: #f7f7f7;
+    border-color: #c0c0c0;
+    -moz-box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.3);
+    width:466px;
+}
+#optin fieldset label{
+    float:  left;
+}
+#optin #addForm select{
+    float: right;
+    height: 39px;
+    padding: 8px 5px;
+    width: 210px;
+}
+#intCatSelection{
+    padding: 0;
+}
+#intCatSelection > fieldset{
+    border:1px solid #c0c0c0;
+    padding: 0;
+    width: auto;
+}
+#intCatSelection .opt-check{
+    border: none;
+    margin:0;
+    padding: 4px 0;
+    border-bottom: solid 1px #f7f7f7;
+}
+#intCatSelection .opt-check:last-child{
+    border-bottom: none;
+}
+.preview.container .background-wrapper.signup_preview .opt-check label{
+    overflow: hidden;
+    max-width: 440px;
+}
+#intCatSelection .opt-check input[type="checkbox"]{
+    margin-left: 5px;
+    margin-right:5px;
+    float:left;
+}
+
+/* ------------------------------------------------------------------------
+    iPad in landscape
+    @media (max-device-width: 1024px) and (orientation: landscape)
+------------------------------------------------------------------------ */
+@media (max-width: 1024px) {
+    .screen-width-indent .container, .preview.container{
+        padding:20px;
+    }
+}
+
+/* ------------------------------------------------------------------------
+    iPad in Portrait
+    @media (max-device-width: 1024px) and (orientation: portrait)
+------------------------------------------------------------------------ */
+@media (max-width: 768px) {
+    .screen-width-indent .container, .preview.container{
+        padding:10px;
+    }
+}
+/* ------------------------------------------------------------------------
+    smartphones
+------------------------------------------------------------------------ */
+@media (max-width: 600px){
+    .screen-width-indent .container,
+    .preview.container,
+    .foot-container {
+        width:inherit;
+        margin:auto;
+        padding:0;
+    }
+    .screen-width-indent .form-background-wrapper,
+    .preview.container .form-background-wrapper{
+        padding: 20px;
+    }
+    .screen-width-indent .form-background-wrapper.colLeftLarge, .preview.container .form-background-wrapper.colLeftLarge{
+        width:88%;
+    }
+    .screen-width-indent #emailAddr,
+    .screen-width-indent #confirmEmailAddr,
+    .screen-width-indent .form-background-wrapper.colLeftLarge fieldset.background-wrapper,
+    .preview.container .form-background-wrapper.colLeftLarge fieldset.background-wrapper,
+    .screen-width-indent #intCatSelection > fieldset{
+        width:inherit!important;
+    }
+    .screen-width-indent .form-background-wrapper fieldset.nopad .check-index,
+    #optin fieldset label{
+        width:85%;
+    }
+    .screen-width-indent .form-background-wrapper.colLeftLarge fieldset.background-wrapper .unsub-opt label, .preview.container .form-background-wrapper.colLeftLarge fieldset.background-wrapper .unsub-opt label{
+        width:75%;
+    }
+    .screen-width-indent textarea,
+    .screen-width-indent #enteredReason, .preview.container #enteredReason{
+        width:97% !important;
+    }
+    .screen-width-indent .form-background-wrapper.colLeftLarge fieldset.background-wrapper input[type=text],
+    .preview.container .form-background-wrapper.colLeftLarge fieldset.background-wrapper input[type=text],
+    .screen-width-indent input[type="text"],
+    .screen-width-indent input[type="password"]{
+        width:95% !important;
+    }
+    #updateEmailAddrLink{
+        white-space: nowrap;
+    }
+
+}
